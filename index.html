@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exercise 5</title>
+    <style>
+      h2 {
+        color: orange;
+      }
+
+      .style1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Question 1</h2>
+    <button onclick="simpleInterest()">Get Simple Interest</button>
+    <p id="amount"></p>
+    <p id="interest"></p>
+    <p id="years"></p>
+    <p id="SI"></p>
+
+    <hr>
+
+    <h2>Question 2</h2>
+    <button onclick="isPalindrome()">is Palindrome ?</button>
+
+    <hr>
+
+    <h2>Question 3</h2>
+    <button onclick="areaCircle()">Area of circle</button>
+
+    <hr>
+
+    <h2>Question 4</h2>
+    <button onclick="copyObj()">Copy obj and console it: </button>
+
+    <hr>
+
+    <h2>Question 5</h2>
+    <h3>create a list of objets of Employee with info as follow :</h3>
+      <pre>1. Name, age, salary ,DOB</pre>
+        <pre class="style1">
+          { Name: 'Jhon', Age: 34, Salary: 10000, DOB: '16/08/1096' },
+          { Name: 'Peter', Age: 18, Salary: 11500, DOB: '1/06/1096' },
+          { Name: 'Mohan', Age: 55, Salary: 700, DOB: '11/04/1086' },
+          { Name: 'Bob', Age: 21, Salary: 35000, DOB: '6/12/1094' },
+          { Name: 'Sam', Age: 29, Salary: 45000, DOB: '11/4/1096' },
+        </pre>
+
+      <pre>2. filter all employees with salary greater than 5000</pre>
+        <p id="salary_less" class="style1"></p>
+      <pre>3. group employee on the basis of their age</pre>
+      <p id="trainee" class="style1"></p>
+      <p id="software_engineer" class="style1"></p>
+      <p id="senior_engineer" class="style1"></p>
+      <pre>4. fetch employees with salary less than 1000 and age greater than 20.
+        Then give them an increment 5 times their salary.</pre>
+        <p id="salary_inc" class="style1"></p>
+    <button onclick="listEmployee()">list of objects of Employee</button>
+
+
+
+    <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
