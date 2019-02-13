@@ -27,9 +27,12 @@ function isPalindrome() {
   for(var i = 0; i < mid;  i++ ) {
     if (str[i] !== str[len - 1 - i]) {
            alert(str +" not Palindrome.");
+           break;
+       }
+       else {
+         alert(str +" is Palindrome.");
        }
   }
-  alert(str +" is Palindrome.");;
 }
 
 function areaCircle() {
@@ -72,7 +75,7 @@ function listEmployee() {
   var trainee = "";
   var software_engineer = "";
   var senior_engineer = "";
-  
+
   for(var i = 0; i<len; i++) {
     if(Employee[i].Salary > 5000) {
       employeeName += Employee[i].Name + ", ";
